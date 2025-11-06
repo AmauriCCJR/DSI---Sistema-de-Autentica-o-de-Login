@@ -3,10 +3,9 @@
 body{
     background-color: rgb(48, 48, 48);
     color: rgb(236, 236, 236);
-    text-align: center;
 
 }
-h1{
+h1, label, a, input{
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -15,7 +14,10 @@ a {
     text-decoration: underline;
     color: darkorange;
 }
-form {
-    align-items: center;
+form, h1{
+     text-align: center;
 
+}
+.voltar{
+    text-align: left;
 }
