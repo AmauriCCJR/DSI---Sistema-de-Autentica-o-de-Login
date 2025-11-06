@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(48, 48, 48);
+    color: rgb(236, 236, 236);
+    text-align: center;
+
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    color: darkorange;
+}
+form {
+    align-items: center;
+
+}
