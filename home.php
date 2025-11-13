@@ -17,7 +17,7 @@
     <title>Menu principal</title>
 </head>
 <body>
-    <div class="container">
+    <div class="link">
         <h1>Olá</h1>
         <p>Veja os requisitos da P2:</p>
         <picture class="link">
