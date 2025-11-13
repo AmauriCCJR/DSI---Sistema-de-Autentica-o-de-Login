@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         $_SESSION['user_session'] = $user_mail; //Atribui o nome do usuário como uma variavel de sessão, tipo cookies, só que no servidor
 
         //Envio de email
-        $email_destino = 'amauricgameplays@gmail.com';
+        $email_destino = "marcos.sousa12@fatec.sp.gov.br";
         $assunto = "Senha Resetada com sucesso!";
         $mensagem = "Sua senha foi resetada no dia ".$data." as ".$hora." horas. <br><br> A sua nova senha agora é: Fatec2025SI";
 

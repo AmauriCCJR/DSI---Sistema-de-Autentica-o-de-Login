@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         $_SESSION['user_session'] = $user_login; //Atribui o nome do usuário como uma variavel de sessão, tipo cookies, só que no servidor
 
         //Envio de email
-        $email_destino = 'amauricgameplays@gmail.com';
+        $email_destino = "marcos.sousa12@fatec.sp.gov.br";
         $assunto = "Login Realizado com sucesso!";
         $mensagem = "Login realizado no dia ".$data." as ".$hora." horas";
 
