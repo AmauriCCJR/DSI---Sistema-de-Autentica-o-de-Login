@@ -87,7 +87,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 
         <input type="submit" value="Resetar senha" class="btn btn-primary"><br><br><hr>
         </form>
-       
+        <div class="link">
+            <a href="index.php">Voltar a tela de login</a>
+        </div>
     </div>
 
 
